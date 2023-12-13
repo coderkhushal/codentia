@@ -105,3 +105,19 @@ a {
     color-scheme: dark;
   }
 }
+.mainnav{
+  display: flex;
+  position: fixed;
+  top: 0rem;
+  width: 100%;
+  background-color: rgb(118, 118, 110);
+}
+.mainnav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.mainnav li{
+  margin: 1rem;
+}

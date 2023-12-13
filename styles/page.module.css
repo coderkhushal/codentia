@@ -1,10 +1,11 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  
 }
 
 .description {
@@ -226,4 +227,38 @@
   to {
     transform: rotate(0deg);
   }
+}
+.myimg{
+  border-radius:100px;
+  width: 200px;
+  border: 2px solid white;
+  margin:auto;
+  margin-top: 2.5rem;
+}
+.heading{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.secondaryh{
+  font-size: 1.7rem;
+  }
+.primaryh{
+  font-size: 2.5rem;
+}
+.blogitem{
+  /* margin: 1rem 0; */
+  padding: 1rem;
+}
+.blogitem h3{
+  font-weight: bold;
+}
+.blogitem button{
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.blogitem button:hover{
+  background-color: grey;
+  cursor:pointer
 }

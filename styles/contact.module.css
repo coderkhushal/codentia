@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+#contactform{
+    margin:auto;
+    width:25%;
+    border:2px solid white;
+    border-radius: 10px;
+    padding:2rem;
+    display:flex;
+    flex-direction:column;
+  }
+.primaryh{
+  font-size: 3rem;
+}
+#contactform input, #contactform button {
+  margin:10px 0;
+  padding: 0.5rem 2rem
+}

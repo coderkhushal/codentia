@@ -1,0 +1,27 @@
+.main {
+  width: 90%;
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+.primaryh{
+  font-size: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+    justify-content: center;
+    margin: 1rem 0;
+}
+.content{
+  text-align:start;
+  
+}
+.content ul{
+  padding: 0 2rem;
+}
